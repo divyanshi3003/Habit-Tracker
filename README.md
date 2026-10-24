@@ -202,3 +202,19 @@ Visit **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 Built with pride by **Aman Jain**  
 GitHub: [@Amanjain1974](https://github.com/Amanjain1974)
+
+
+## InsForge PostgreSQL Backend Setup
+
+1. Create a project at [InsForge](https://insforge.app).
+2. Copy your PostgreSQL database connection URI.
+3. Add it to your `.env` file:
+   ```env
+   DATABASE_URL="postgresql://user:password@host:5432/insforge?sslmode=require"
+   NEXTAUTH_SECRET="your-secure-secret"
+   NEXTAUTH_URL="http://localhost:3000"
+   ```
+4. Push your schema:
+   ```bash
+   npx prisma db push
+   ```
