@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ArrowLeft, Compass } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 export default function NotFound() {
   return (
@@ -13,12 +12,13 @@ export default function NotFound() {
         The page you are looking for does not exist or has been moved to another section.
       </p>
       <div className="mt-6 flex gap-3">
-        <Button asChild variant="default">
-          <Link href="/dashboard" className="flex items-center gap-2">
-            <ArrowLeft className="h-4 w-4" />
-            Back to Dashboard
-          </Link>
-        </Button>
+        <Link
+          href="/dashboard"
+          className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90 transition-colors"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back to Dashboard
+        </Link>
       </div>
     </div>
   );

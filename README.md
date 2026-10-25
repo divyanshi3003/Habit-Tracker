@@ -141,7 +141,7 @@ erDiagram
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/Amanjain1974/Habit-Tracker.git
+git clone https://github.com/divyanshi3003/Habit-Tracker.git
 cd Habit-Tracker
 ```
 
@@ -200,8 +200,8 @@ Visit **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ## ✦ Author
 
-Built with pride by **Aman Jain**  
-GitHub: [@Amanjain1974](https://github.com/Amanjain1974)
+Built with pride by **Divyanshi Sharma**  
+GitHub: [@divyanshi3003](https://github.com/divyanshi3003)
 
 
 ## InsForge PostgreSQL Backend Setup

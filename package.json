@@ -1,6 +1,8 @@
 {
   "name": "momentum",
   "version": "1.0.0",
+  "description": "Momentum - A calming, high-performance personal habit tracker, time logger, and priority matrix.",
+  "author": "divyanshi3003 <iamdivya3003@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "next dev",
